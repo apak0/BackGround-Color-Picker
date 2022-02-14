@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+
+  width: 700px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgb(161, 66, 66);
+}
+
+.btn-1,
+.btn-2 {
+  width: 150px;
+  height: 150px;
+}
+
+.btn-1 {
+  margin-right: 20px;
+}
+
+#random-button {
+  position: relative;
+  top: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+
+  width: 150px;
+  height: 50px;
+  left: 17rem;
+  color: rgb(20, 61, 197);
+  box-shadow: 20px 20px 50px 10px rgb(184, 91, 106) inset;
+}
+
+#text {
+  background-color: rgb(224, 163, 163);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 300px;
+  left: 24rem;
+  top: 2rem;
+  color: #e74c4c;
+  border: 2px black solid;
+}
+
+#text0 {
+  position: fixed;
+  top: 1.5rem;
+  left: 6rem;
+  font-size: 38px;
+  color: blue;
+}
